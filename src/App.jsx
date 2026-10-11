@@ -6,7 +6,7 @@ const normalize = (s) =>
 
 const isDate = (s) => {
   const m = s.trim().match(/^(\d{1,2})\s*[/.\-]\s*(\d{1,2})\s*[/.\-]\s*(\d{2}|\d{4})$/)
-  return !!m && +m[1] === 13 && +m[2] === 7 && (m[3] === '26' || m[3] === '2026')
+  return !!m && +m[1] === 13 && +m[2] === 9 && (m[3] === '26' || m[3] === '2026')
 }
 
 const questions = [
